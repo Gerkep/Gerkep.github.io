@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    background-image: -o-linear-gradient(rgba(0, 0, 0, 0.52),rgba(0, 0, 0, 0.52)), url(https://images.unsplash.com/photo-1437419764061-2473afe69fc2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1790&q=80);
+    background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(0, 0, 0, 0.52)),to(rgba(0, 0, 0, 0.52))), url(https://images.unsplash.com/photo-1437419764061-2473afe69fc2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1790&q=80);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.52),rgba(0, 0, 0, 0.52)), url(https://images.unsplash.com/photo-1437419764061-2473afe69fc2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1790&q=80);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p{
+    font-size: 2vh;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a{
+    color: white;
+}
+
+#back-button{
+    margin-top: 3vh;
+    margin-left: 3vh;
+    font-size: 2vh;
+    background-color: rgba(158, 4, 30, 0.85);
+    border-radius: 30px;
+    border: none;
+    height: 4vh;
+    width: 10vh;
+}
+
+#back-button:hover{
+    background-color: rgba(41, 40, 40, 0.7);
+}
+
+#story-header{
+    text-align: center;
+    font-size: 4vh;
+    margin-bottom: 5vh;
+}
+.text{
+    text-align: justify;
+}
+#my-img{
+    border-radius: 50%;
+    max-height: 15vh;
+    max-width: 15vh;
+    height: auto;
+    width: auto;
+}
+
+.story-container{
+    padding: 5vh;
+    padding-top: 3vh;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    height: 100vh;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 8vh;
+}
+.pictures{
+    margin: auto;
+    margin-top: 15vh;
+    border-radius: 15vh;
+    height: 40vh;
+    width: 30vh;
+    overflow: hidden;
+}
+.picture{
+    height: 100%;
+    width: 100%;
+}
+@media (max-width: 600px) {
+    .pictures{
+      margin-top: 8vh;
+    }
+  }
