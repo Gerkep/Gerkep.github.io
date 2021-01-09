@@ -15,7 +15,6 @@ ul{
     padding: 0;
 }
 a{
-    padding: 3vh;
     text-decoration: none;
     color: white;
 }
@@ -167,6 +166,9 @@ p{
 }
 .nav-button{
     margin: 1vh;
+    width: 15vh;
+    height: 6vh;
+    font-size: 2vh;
 }
 .container{
     margin-left: auto;
@@ -175,7 +177,7 @@ p{
     width: 35vh;
 }
 #second-panel{
-    margin-top: 100vh;
+    margin-top: 200vh;
 }
 p{
     font-size: 1.5rem;
