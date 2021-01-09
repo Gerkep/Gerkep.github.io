@@ -78,15 +78,21 @@ p{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    box-shadow: 0 3px 8px 8px black inset;
+    -webkit-box-shadow: 0 3px 8px 8px black inset;
+            box-shadow: 0 3px 8px 8px black inset;
     margin-top: 60%;
     height: auto;
     padding-bottom: 3vh;
 }
 .containers{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     margin: auto;
 }
 .container{
@@ -108,8 +114,11 @@ p{
 }
 
 .container:hover{
-    box-shadow: 12px 12px rgba(10, 10, 10, 0.7);
-    transform: scale(1.05);
+    -webkit-box-shadow: 12px 12px rgba(10, 10, 10, 0.7);
+            box-shadow: 12px 12px rgba(10, 10, 10, 0.7);
+    -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+            transform: scale(1.05);
 }
 
 .order-button{
@@ -126,10 +135,10 @@ p{
     text-shadow: 3px 3px #000000d8;
     text-shadow: 0px  -1px 0px rgba(0,0,0,.5);
     -webkit-box-shadow: 0px 6px 0px #000000c5, 0px 3px 15px rgba(0,0,0,.4);
-    -moz-box-shadow: 0px 6px 0px #000000c5, 0px 3px 15px rgba(0,0,0,.4);
     box-shadow: 0px 6px 0px #000000c5, 0px 3px 15px rgba(0,0,0,.4); 
     -webkit-transition: all .1s ease-in-out;
-    -moz-transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
 }
 
@@ -137,11 +146,10 @@ p{
 .order-button:hover{
     background-color: rgb(48, 33, 17);
     -webkit-box-shadow: 0px 2px 0px #000000c5, 0px 1px 6px rgba(0,0,0,.4), inset 0px 1px 0px rgba(48, 33, 17, 1), inset 0px 0px 3px rgba(48, 33, 17, 1);
-    -moz-box-shadow: 0px 2px 0px #000000c5, 0px 1px 6px rgba(0,0,0,.4), inset 0px 1px 0px rgba(48, 33, 17, 1), inset 0px 0px 3px rgba(48, 33, 17, 1);
     box-shadow: 0px 2px 0px #000000c5, 0px 1px 6px rgba(0,0,0,.4), inset 0px 1px 0px rgba(48, 33, 17, 1), inset 0px 0px 3px rgba(48, 33, 17, 1);
     -webkit-transform: translate(0, 4px);
-    -moz-transform: translate(0, 4px);
-    transform: translate(0, 4px);
+    -ms-transform: translate(0, 4px);
+        transform: translate(0, 4px);
 }
 
 .inner-container{
@@ -180,10 +188,10 @@ p{
     margin-top: 200vh;
 }
 p{
-    font-size: 1.5rem;
+    font-size: 4vh;
 }
 h2{
-    font-size: 3rem;
+    font-size: 6vh;
     margin: 2vh;
 }
 .order-button{
