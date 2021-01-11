@@ -30,12 +30,10 @@ p{
 }
 #first-panel{
     background-image: url("images/artur-rutkowski-h2CPeqTzaaY-unsplash.jpg");
-    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: fixed;
     top:0;
-    left:0;
     z-index: -99; 
 }
 .panels .navbar .scroll{
