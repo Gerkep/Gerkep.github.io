@@ -5,6 +5,9 @@ background-image: url(https://images.unsplash.com/photo-1437419764061-2473afe69f
 background-position: center;
 background-attachment: fixed;
 background-size: cover;
+-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 a:link{
@@ -194,14 +197,14 @@ h2{
 .footer{
     color: white;
     text-align: center;
+    margin-left: 2vh;
+    margin-right: 2vh;
 }
 
 .contact{
-    position: fixed;
     bottom: 0;
-    left: 2vh;
-    color: rgba(255, 255, 255, 0.685);
     text-align: left;
+    color: rgba(255, 255, 255, 0.685);
     font-size: 2vh;
 }
 
