@@ -30,6 +30,7 @@ p{
 }
 #first-panel{
     background-image: url("images/artur-rutkowski-h2CPeqTzaaY-unsplash.jpg");
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: fixed;
