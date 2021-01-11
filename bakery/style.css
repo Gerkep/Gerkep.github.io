@@ -27,7 +27,6 @@ p{
     height:100%;
     min-height:100%;
     width:100%;
-    z-index:1000;
 }
 #first-panel{
     background-image: url("images/artur-rutkowski-h2CPeqTzaaY-unsplash.jpg");
@@ -40,7 +39,7 @@ p{
     z-index: -99; 
 }
 .panels .navbar .scroll{
-    margin-top: 10vh;
+    margin-top: 15vh;
     color: white;
     opacity: 0.1;
     -webkit-transition: all 1s ease;
