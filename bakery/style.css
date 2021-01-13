@@ -39,7 +39,8 @@ p{
     -webkit-transition: all 1s ease;
     -o-transition: all 1s ease;
     transition: all 1s ease;
-    height: auto;
+    height: 100%;
+    width: 100%;
 }
 .panels .navbar .scroll{
     margin-top: 15vh;
