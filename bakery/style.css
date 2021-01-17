@@ -3,14 +3,17 @@ body{
     margin: 0;
     font-family: 'Times New Roman', Times, serif;
     text-shadow: 3px 3px #000000d2;
-    background-image: url("images/artur-rutkowski-h2CPeqTzaaY-unsplash.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+}
+#background{
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-size: 100%;
+    background-image: url('images/artur-rutkowski-h2CPeqTzaaY-unsplash.jpg');
     background-attachment: fixed;
-    -webkit-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    transition: all 1s ease;
 }
 h2{
     font-size: 5vh;
