@@ -33,6 +33,7 @@ header{
     right: 3vh;
     position: fixed;
     top: 3vh;
+    z-index: 0;
 }
 #my-img{
     border-radius: 50%;
@@ -45,6 +46,7 @@ header{
 #upbutton{
     height: 8vh;
     width: 8vh;
+    z-index: 0;
 }
 .fixed{
     margin-top: 20vh;
@@ -221,5 +223,12 @@ h2{
     }
     .fixed-text{
         font-size: 8vh;
+    }
+    #upbutton{
+        left: 2vh;
+        top: 2vh;
+    }
+    .container{
+        width: 35vh;
     }
   }
