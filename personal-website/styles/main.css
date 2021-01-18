@@ -13,9 +13,6 @@ body:before {
     -o-background-size: cover;
     background-size: cover;
 }
-body{
-
-}
 a:link{
     text-decoration: none;
 }
