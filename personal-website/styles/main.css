@@ -139,6 +139,8 @@ header{
     background: rgba(0, 0, 0, 0.7);
     height: 55%;
     z-index: 2;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 .under-text{
     font-size: 1.5vh;
@@ -149,7 +151,7 @@ header{
 }
 .story-btn{
     font-size: 2vh;
-    background-color: rgba(158, 4, 30, 0.85);
+    background-color: rgba(19, 20, 117, 0.85);
     border-radius: 30px;
     border: none;
     height: 4vh;
@@ -157,9 +159,7 @@ header{
     
 }
 .story-btn:hover{
-    background-color: rgba(41, 40, 40, 0.7);
-    border-width: 5px;
-    border:  rgba(250, 10, 50, 0.812);
+    background-color: rgba(41, 40, 40, 0.9);
 }
 .media-btn{
     border-radius: 50%;
