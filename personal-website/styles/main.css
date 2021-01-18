@@ -172,7 +172,6 @@ header{
     overflow: hidden;
     border: 0px;
     margin: 2vh;
-    margin-left: 2vh;
     background-color: transparent;
 }
 .media-btn:hover{
@@ -230,5 +229,6 @@ header{
     .media-btn{
         height: 8vh;
         width: 8vh;
+        margin: 1vh;
     }
   }
