@@ -229,6 +229,10 @@ header{
     .media-btn{
         height: 8vh;
         width: 8vh;
-        margin: 1vh;
+        margin: 0.25vh;
+    }
+    .story-btn{
+        width: 14vh;
+        height: 5vh;
     }
   }
