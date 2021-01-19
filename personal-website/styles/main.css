@@ -161,6 +161,21 @@ header{
 .story-btn:hover{
     background-color: rgba(41, 40, 40, 0.9);
 }
+.web-btn{
+    background-color: transparent;
+    border: none;
+}
+.web-btn span.icon{
+    background: url(https://www.flaticon.com/svg/vstatic/svg/883/883561.svg?token=exp=1611087739~hmac=0d713cf7c3f915d1ea81922955162a81) no-repeat;
+    width: 5vh;
+    height: 6vh;
+    float: left;
+}
+.web-btn span.icon:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
 .media-btn{
     border-radius: 50%;
     height: 6vh;
