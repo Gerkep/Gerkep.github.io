@@ -46,6 +46,7 @@ header{
     height: 8vh;
     width: 8vh;
     z-index: 0;
+    outline: none;
 }
 .fixed{
     margin-top: 20vh;
@@ -151,12 +152,12 @@ header{
 }
 .story-btn{
     font-size: 2vh;
-    background-color: rgba(19, 20, 117, 0.85);
+    background-color: rgba(19, 20, 117, 0.95);
     border-radius: 30px;
     border: none;
     height: 4vh;
     width: 10vh;
-    
+    outline: none;
 }
 .story-btn:hover{
     background-color: rgba(41, 40, 40, 0.9);
@@ -179,6 +180,7 @@ header{
     border: 0px;
     margin: 2vh;
     background-color: transparent;
+    outline: none;
 }
 .media-btn:hover{
     -webkit-transform: scale(1.1);
