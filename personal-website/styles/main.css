@@ -161,16 +161,7 @@ header{
 .story-btn:hover{
     background-color: rgba(41, 40, 40, 0.9);
 }
-.web-btn{
-    background-color: transparent;
-    border: none;
-}
-.web-btn span.icon{
-    background: url('https://www.flaticon.com/svg/vstatic/svg/883/883561.svg?token=exp=1611088985~hmac=8afa16111ba652febbea9da67024adb5') no-repeat;
-    width: 5vh;
-    height: 6vh;
-    float: left;
-}
+
 .web-btn span.icon:hover{
     transform: scale(1.1);
     transition: all 0.5s ease;
@@ -193,9 +184,9 @@ header{
     -webkit-transform: scale(1.1);
         -ms-transform: scale(1.1);
             transform: scale(1.1);
-    -webkit-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    transition: all 0.5s ease;
+    -webkit-transition: all 0.7s ease;
+    -o-transition: all 0.7s ease;
+    transition: all 0.7s ease;
 }
 .media-img{
    max-width: 100%;
