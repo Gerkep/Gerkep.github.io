@@ -190,6 +190,7 @@ p{
     margin-right: auto;
     height: 50vh;
     width: 35vh;
+    border-radius: 30px;
 }
 #second-panel{
     margin-top: 130vh;
