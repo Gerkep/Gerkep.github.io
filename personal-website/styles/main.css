@@ -57,6 +57,7 @@ header{
     -webkit-filter: blur(1px);
             filter: blur(1px);
     z-index: -1;
+    text-align: center;
 }
 .fixed-text{
     text-align: center;
