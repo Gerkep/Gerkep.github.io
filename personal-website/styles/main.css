@@ -150,6 +150,7 @@ header{
 }
 .under-text{
     font-size: 1.5vh;
+    opacity: 0.8;
 }
 #websites{
     margin: auto;
