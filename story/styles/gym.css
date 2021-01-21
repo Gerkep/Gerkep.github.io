@@ -29,6 +29,7 @@ a{
     border: none;
     height: 4vh;
     width: 10vh;
+    outline: none;
 }
 
 #back-button:hover{
