@@ -242,7 +242,8 @@ margin-top: 0;
         top: 2vh;
     }
     .container{
-        width: 35vh;
+        width: 20rem;
+        height: 35rem;
     }
     .media-btn{
         height: 8vh;
@@ -254,6 +255,6 @@ margin-top: 0;
         height: 5vh;
     }
     p{
-        font-size: 0.8rem;
+        font-size: 1.2rem;
     }
   }
