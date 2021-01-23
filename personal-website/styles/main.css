@@ -253,4 +253,7 @@ margin-top: 0;
         width: 14vh;
         height: 5vh;
     }
+    p{
+        font-size: 0.8rem;
+    }
   }
