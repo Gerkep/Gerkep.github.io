@@ -246,9 +246,9 @@ margin-top: 0;
         height: 35rem;
     }
     .media-btn{
-        height: 8vh;
-        width: 8vh;
-        margin: 0.25vh;
+        height: 3.5rem;
+        width: 3.5rem;
+        margin: 1rem;
     }
     .story-btn{
         width: 14vh;
