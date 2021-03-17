@@ -21,6 +21,7 @@ a{
 }
 h2{
     margin: 3vh;
+    text-shadow: 6px 6px rgba(0, 0, 0, 0.7);
 }
 header{
     position: fixed;
@@ -56,11 +57,13 @@ header{
     left: 0;
     z-index: -1;
     text-align: center;
+
 }
 .fixed-text{
     text-align: center;
     color:white;
     font-size: 10vh;
+    text-shadow: 6px 6px rgba(0, 0, 0, 0.7);
  
 }
 .fixed .fixed-text .text span{
@@ -86,6 +89,8 @@ header{
     -webkit-transition: all 1s ease;
     -o-transition: all 1s ease;
     transition: all 1s ease;
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.7);
+    font-size: 3rem;
 }
 .below-mainTxt .scroll-text .appear-text.appear{
     opacity: 0.8;
