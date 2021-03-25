@@ -17,7 +17,7 @@ a{
     color: white;
 }
 h2{
-    font-size: 2rem;
+    font-size: 3rem;
     text-shadow: 4px 4px rgba(0, 0, 0, 0.8);
 }
 p{
@@ -32,10 +32,9 @@ width: 100%;
 position: fixed;
 }
 .nav-button{
-    width: 12vh;
     height: 5vh;
     border: none;
-    font-size: 1rem;
+    font-size: 1.3rem;
 }
 .intro{
     margin-top: 18vh;
@@ -55,8 +54,8 @@ position: fixed;
   }
 .container{
     flex: 0 0 auto;
-    height: 55vh;
-    width: 40vh;
+    height: 30rem;
+    width: 20rem;
     margin: 0 auto;
     margin-top: 5vh;
     position: relative;
