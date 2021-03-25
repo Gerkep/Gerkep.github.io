@@ -26,8 +26,12 @@ p{
 }
 .navbar{
     top: 0;
+display: -webkit-box;
+display: -ms-flexbox;
 display: flex;
-justify-content: flex-end;
+-webkit-box-pack: end;
+    -ms-flex-pack: end;
+        justify-content: flex-end;
 width: 100%;
 position: fixed;
 }
@@ -44,8 +48,11 @@ position: fixed;
     position: relative;
 }
 .containers{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
     overflow-x: auto;
     overflow-y: hidden;
 }
@@ -53,7 +60,9 @@ position: fixed;
     display: none;
   }
 .container{
-    flex: 0 0 auto;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
     height: 30rem;
     width: 20rem;
     margin: 0 auto;
