@@ -17,13 +17,13 @@ a{
     color: white;
 }
 h2{
-    font-size: 5vh;
+    font-size: 6vh;
     text-shadow: 4px 4px rgba(0, 0, 0, 0.8);
 }
 p{
     text-shadow: 3px 2px rgba(0, 0, 0, 0.8);
     margin-top: 0;
-    font-size: 2vh;
+    font-size: 3vh;
 }
 .navbar{
     top: 0;
@@ -39,7 +39,7 @@ position: fixed;
 .nav-button{
     height: 5vh;
     border: none;
-    font-size: 1.3rem;
+    font-size: 3vh;
 }
 .intro{
     margin-top: 18vh;
@@ -62,8 +62,8 @@ position: fixed;
     -webkit-box-flex: 0;
         -ms-flex: 0 0 auto;
             flex: 0 0 auto;
-    height: 60vh;
-    width: auto;
+    height: 70vh;
+    width: 40vh;
     margin: 0 auto;
     margin-top: 5vh;
     position: relative;
@@ -72,6 +72,7 @@ position: fixed;
     background-color: rgba(0, 0, 0, 0.808);
     margin-right: 5vh;
     border-radius: 30px;
+    margin-bottom: 5vh;
 }
 #bread{
     height: 30vh;
@@ -83,4 +84,5 @@ position: fixed;
     background-color: rgba(255, 187, 0, 0.8);
     border: none;
     border-radius: 50px;
+    font-size: 3vh;
 }
