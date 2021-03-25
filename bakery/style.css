@@ -17,7 +17,7 @@ a{
     color: white;
 }
 h2{
-    font-size: 3rem;
+    font-size: 5vh;
     text-shadow: 4px 4px rgba(0, 0, 0, 0.8);
 }
 p{
@@ -63,8 +63,8 @@ position: fixed;
     -webkit-box-flex: 0;
         -ms-flex: 0 0 auto;
             flex: 0 0 auto;
-    height: 30rem;
-    width: 20rem;
+    height: 60vh;
+    width: 40vh;
     margin: 0 auto;
     margin-top: 5vh;
     position: relative;
@@ -80,5 +80,5 @@ position: fixed;
     height: 5vh;
     background-color: rgba(255, 187, 0, 0.8);
     border: none;
-    border-radius: 20px;
+    border-radius: 50px;
 }
