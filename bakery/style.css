@@ -64,7 +64,7 @@ position: fixed;
         -ms-flex: 0 0 auto;
             flex: 0 0 auto;
     height: 60vh;
-    width: 40vh;
+    width: auto;
     margin: 0 auto;
     margin-top: 5vh;
     position: relative;
@@ -76,8 +76,8 @@ position: fixed;
 }
 
 .order-button{
-    width: 12vh;
-    height: 5vh;
+    width: 40%;
+    height: 3rem;
     background-color: rgba(255, 187, 0, 0.8);
     border: none;
     border-radius: 50px;
