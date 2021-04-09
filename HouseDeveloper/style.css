@@ -1,0 +1,288 @@
+html, body{
+    top: 0;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+#navbar {
+    top: 0;
+    overflow: hidden;
+    width: 100%;
+    overflow: hidden;
+    background-color: transparent;
+    z-index: 99;
+    display: block;
+}
+#navbar a {
+    float: right;
+    padding: 0.5vh;
+    font-size: 1.6vh;
+    margin-right: 3vh;
+    display: inline;
+    margin-top: 1vh;
+    font-weight: 900;
+    width: auto;
+}
+#shadow{
+    width: 100%;
+    height: 100%;
+    background-color: #00000062;
+    z-index: 100;
+}
+#navbar a:hover{
+    background-color: #000000;
+    color: #fff;
+}
+#logo{
+    background-image: url("/images/logo-gerke.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 8vh;
+    width: 8vh;
+    float: left;
+    font-size: 4vh;
+    margin-left: 2vh;
+    margin-top: 2vh;
+    color: #000000;
+}
+#first-section{
+    z-index: 0;
+    top: 0;
+    height: 65vh;
+    background-image: url("/images/zane-lee-ECsnJcc0Dhs-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.page-buttons{
+    width: 100%;
+    height: 10vh;
+    margin-top: 16vh;
+    position: absolute;
+    display: block;
+}
+.change-page-btn{
+    border-radius: 50%;
+    height: 5vh;
+    width: 5vh;
+    border: none;
+    background-color: transparent;
+}
+.change-page-btn:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+}
+#left-btn{
+    background-image: url("/images/left.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+    margin-left: 1.5vh;
+}
+#right-btn{
+    background-image: url("/images/right.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: right;
+    margin-right: 1.5vh;
+}
+.about-house{
+    width: 100%;
+    height: 30vh;
+    position: absolute;
+    margin-top: 25vh;
+    display: grid;
+    grid-template-columns: 5vh 17vh 5vh 17vh 5vh 17vh;
+    grid-template-rows: 1fr 1fr;
+    gap: 8px 0px;
+    grid-template-areas:
+      "house-coords house-coords house-coords house-coords price price"
+      "agent-icon agent tel-icon tel housework-icon house-work";
+}
+.icon{
+    margin-top: 2vh;
+    margin-left: 1vh;
+    width: 5vh;
+    height: 5vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.info{
+   color: white;
+   font-size: 1.4vh;
+   padding-top: 2vh;
+   padding-bottom: 3vh;
+   padding-left: 2vh;
+   line-height: 2.5vh;
+}
+#agent-icon{
+    grid-area: agent-icon;
+    background-image: url("/images/agent-white.png");
+    margin-left: 2vh;
+}
+#agent { 
+    grid-area: agent;
+    margin-left: 2vh;
+ }
+
+#tel-icon{
+     grid-area: tel-icon;
+     background-image: url("/images/tel.png");
+ }
+#tel { 
+    grid-area: tel; 
+}
+#housework-icon{
+    grid-area: housework-icon;
+    background-image: url("/images/clock.png");
+    margin-left: 0vh;
+}
+#house-work {
+    grid-area: house-work;
+    line-height: 1.5vh;
+    padding-left: 1vh;
+ }
+ #house-work-txt{
+     font-size: 1vh;
+     line-height: 1.8vh;
+ }
+.showing-btn { 
+    text-align: right;
+    grid-area: showing-btn;
+    margin-right: 3.5vh;
+}
+#buy-btn{
+    width: 16vh;
+    height: 6vh;
+    margin-top: 3.5vh;
+    border-radius: 30px;
+    border: none;
+    font-weight: bold;
+}
+#buy-btn:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+    cursor: pointer;
+    outline: none;
+}
+.house-coords { 
+    grid-area: house-coords; 
+    padding-top: 2vh;
+    margin-left: 1.5vh;
+    color: white;
+    font-size: 2.2vh;
+}
+.price { 
+    grid-area: price; 
+    color: white;
+    font-size: 3vh;
+    padding-top: 3vh;
+    line-height: 1.5vh;
+    text-align: right;
+    margin-right: 3.5vh;
+}
+#price-txt{
+    font-size: 1.6vh;
+}
+#second-section{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.overall-specs{
+    justify-content: center;
+    height: 15vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 3vh 10vh 3vh 11vh 3vh 10.5vh 3vh 15vh;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "bedrooms-num . bathrooms-num . garages-num . area-num area-num"
+      "bedrooms-icon bedrooms-txt bathrooms-icon bathrooms-txt garages-icon garages-txt area-icon area-txt";
+
+}
+
+.specs-num{
+    margin-top: 2vh;
+    margin-left: 1vh;
+    margin-bottom: 1vh;
+    font-size: 4.5vh;
+    color: #0000009c;
+    width: 3vh;
+}
+.specs-icon{
+    margin-bottom: 2vh;
+    width: 3vh;
+    height: 3vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.specs-txt{
+    font-size: 1vh;
+    margin-top: 1vh;
+    text-align: center;
+    font-weight: 900;
+}
+#bedrooms-num { grid-area: bedrooms-num; }
+#bathrooms-num { grid-area: bathrooms-num; }
+#garages-num { grid-area: garages-num; }
+#bedrooms-icon { 
+    grid-area: bedrooms-icon; 
+    background-image: url("/images/bed.png");
+    margin-left: 0.6vh;
+}
+#bedrooms-txt { grid-area: bedrooms-txt; }
+#bathrooms-icon {
+     grid-area: bathrooms-icon;
+     background-image: url("/images/shower.png");
+}
+#bathrooms-txt { grid-area: bathrooms-txt; }
+#garages-icon { 
+    grid-area: garages-icon; 
+    background-image: url("/images/car.png");
+    margin-left: 0.8vh;
+}
+#garages-txt { grid-area: garages-txt; }
+#area-icon { 
+    grid-area: area-icon; 
+    background-image: url("/images/area.png");
+    margin-left: 0.8vh;
+}
+#area-num { grid-area: area-num; }
+#area-txt { grid-area: area-txt; }
+.description{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "description-txt description-img";
+      background-color: #0000000c;
+}
+.description-txt { 
+    grid-area: description-txt; 
+    padding: 1.5vh;
+}
+.description-img { 
+    grid-area: description-img; 
+    width: 30vh;
+    height: 18vh;
+    margin-top: 3vh;
+}
+#desc{
+    font-size: 1vh;
+}
+#desc-header{
+    font-size: 3.5vh;
+}
