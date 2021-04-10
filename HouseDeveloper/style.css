@@ -214,6 +214,7 @@ a{
     background-color: #131313;
 }
 .overall-specs{
+    position: absolute;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
