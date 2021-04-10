@@ -289,3 +289,79 @@ a{
 #desc-header{
     font-size: 3.5vh;
 }
+@media(min-width:1200px){
+    #navbar a{
+        font-size: 3vh;
+    }
+    .about-house{
+        justify-content: center;
+        margin-top: 22vh;
+        grid-template-columns: 15vh 40vh 15vh 40vh 15vh 30vh;
+
+    }
+    .house-coords{
+        font-size: 3vh;
+    }
+    .icon{
+        margin-top: 2vh;
+        margin-left: 10vh !important;
+        width: 6vh;
+        height: 6vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .info{
+        margin-left: 2vh;
+        font-size: 2vh;
+    }
+    #house-work-txt{
+        font-size: 1vh;
+    }
+    #buy-btn{
+        width: 25vh;
+        height: 7vh;
+        border-radius: 40px;
+        font-size: 2vh;
+    }
+    .price{
+        font-size: 4.5vh;
+    }
+    .overall-specs{
+        grid-template-columns: 6vh 20vh 6vh 22vh 6vh 21vh 6vh 30vh;
+    
+    }
+    
+    .specs-num{
+        font-size: 7vh;
+        width: 3vh;
+    }
+    .specs-icon{
+        width: 5vh;
+        height: 5vh;
+    }
+    .specs-txt{
+        font-size: 2vh;
+        margin-top: 1vh;
+        text-align: center;
+        font-weight: 900;
+        color: white;
+    }
+    .description{
+       margin-left: 6vh;
+       margin-top: 5vh;
+    }
+    #desc-header{
+        margin-top: 1vh;
+        font-size: 5vh;
+    }
+    #desc{
+        font-size: 2vh;
+    }
+    .description-img{
+        margin-left: 5vh;
+        width: 80vh;
+        height: 40vh;
+    }
+    
+}
