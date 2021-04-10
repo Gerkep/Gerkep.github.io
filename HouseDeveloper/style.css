@@ -56,7 +56,7 @@ a{
     z-index: 0;
     top: 0;
     height: 65vh;
-    background-image: url("/images/zane-lee-ECsnJcc0Dhs-unsplash.jpg");
+    background-image: url("images/zane-lee-ECsnJcc0Dhs-unsplash.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -85,7 +85,7 @@ a{
     transition: all 0.5s ease;
 }
 #left-btn{
-    background-image: url("/images/left.png");
+    background-image: url("images/left.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -93,7 +93,7 @@ a{
     margin-left: 1.5vh;
 }
 #right-btn{
-    background-image: url("/images/right.png");
+    background-image: url("images/right.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -132,7 +132,7 @@ a{
 }
 #agent-icon{
     grid-area: agent-icon;
-    background-image: url("/images/agent-white.png");
+    background-image: url("images/agent-white.png");
     margin-left: 2vh;
 }
 #agent { 
@@ -142,14 +142,14 @@ a{
 
 #tel-icon{
      grid-area: tel-icon;
-     background-image: url("/images/tel.png");
+     background-image: url("images/tel.png");
  }
 #tel { 
     grid-area: tel; 
 }
 #housework-icon{
     grid-area: housework-icon;
-    background-image: url("/images/clock.png");
+    background-image: url("images/clock.png");
     margin-left: 0vh;
 }
 #house-work {
@@ -266,13 +266,12 @@ a{
 #bathrooms-txt { grid-area: bathrooms-txt; }
 #garages-icon { 
     grid-area: garages-icon; 
-    background-image: url("/images/auto-white.png");
     margin-left: 0.8vh;
 }
 #garages-txt { grid-area: garages-txt; }
 #area-icon { 
     grid-area: area-icon; 
-    background-image: url("/images/area-white.png");
+    background-image: url();
     margin-left: 0.8vh;
 }
 #area-num { grid-area: area-num; }
