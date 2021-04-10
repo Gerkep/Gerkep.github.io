@@ -19,7 +19,7 @@ a{
 }
 #navbar a {
     float: right;
-    padding: 0.5vh;
+    padding: 2vh;
     font-size: 1.6vh;
     margin-right: 3vh;
     display: inline;
@@ -197,6 +197,7 @@ a{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    background-color: #131313;
 }
 .overall-specs{
     justify-content: center;
@@ -215,9 +216,9 @@ a{
 .specs-num{
     margin-top: 2vh;
     margin-left: 1vh;
-    margin-bottom: 1vh;
+    margin-bottom: 2vh;
     font-size: 4.5vh;
-    color: #0000009c;
+    color: #ffffffb7;
     width: 3vh;
 }
 .specs-icon{
@@ -233,30 +234,31 @@ a{
     margin-top: 1vh;
     text-align: center;
     font-weight: 900;
+    color: white;
 }
 #bedrooms-num { grid-area: bedrooms-num; }
 #bathrooms-num { grid-area: bathrooms-num; }
 #garages-num { grid-area: garages-num; }
 #bedrooms-icon { 
     grid-area: bedrooms-icon; 
-    background-image: url("/images/bed.png");
+    background-image: url("/images/bedrooms-white.png");
     margin-left: 0.6vh;
 }
 #bedrooms-txt { grid-area: bedrooms-txt; }
 #bathrooms-icon {
      grid-area: bathrooms-icon;
-     background-image: url("/images/shower.png");
+     background-image: url("/images/bathrooms-white.png");
 }
 #bathrooms-txt { grid-area: bathrooms-txt; }
 #garages-icon { 
     grid-area: garages-icon; 
-    background-image: url("/images/car.png");
+    background-image: url("/images/auto-white.png");
     margin-left: 0.8vh;
 }
 #garages-txt { grid-area: garages-txt; }
 #area-icon { 
     grid-area: area-icon; 
-    background-image: url("/images/area.png");
+    background-image: url("/images/area-white.png");
     margin-left: 0.8vh;
 }
 #area-num { grid-area: area-num; }
@@ -269,6 +271,7 @@ a{
     grid-template-areas:
       "description-txt description-img";
       background-color: #0000000c;
+      color: white;
 }
 .description-txt { 
     grid-area: description-txt; 
