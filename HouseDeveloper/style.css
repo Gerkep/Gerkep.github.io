@@ -4,7 +4,7 @@ html, body{
     padding: 0;
     font-family: 'Montserrat', sans-serif;
     width: 100%;
-    height: 100%;
+    min-height: 100% !important;
 }
 a{
     color: #ffffff;
@@ -29,6 +29,16 @@ a{
     font-weight: 900;
     width: auto;
 }
+#first-section{
+    z-index: 0;
+    top: 0;
+    height: 70vh;
+    width: 100%;
+    background-image: url("images/zane-lee-ECsnJcc0Dhs-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 #shadow{
     width: 100%;
     height: 100%;
@@ -52,16 +62,7 @@ a{
     margin-top: 2vh;
     color: #000000;
 }
-#first-section{
-    z-index: 0;
-    top: 0;
-    height: 65vh;
-    width: 100%;
-    background-image: url("images/zane-lee-ECsnJcc0Dhs-unsplash.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
+
 .page-buttons{
     width: 100%;
     height: 10vh;
@@ -75,6 +76,7 @@ a{
     width: 5vh;
     border: none;
     background-color: transparent;
+    outline: none;
 }
 .change-page-btn:hover{
     cursor: pointer;
@@ -103,11 +105,9 @@ a{
 }
 .about-house{
     width: 100%;
-    height: 30vh;
-    position: absolute;
     margin-top: 25vh;
     display: grid;
-    grid-template-columns: 5vh 17vh 5vh 17vh 5vh 15vh;
+    grid-template-columns: 7vw 25vw 7vw 25vw 7vw 25vw;
     grid-template-rows: 1fr 1fr;
     gap: 8px 0px;
     grid-template-areas:
@@ -117,8 +117,8 @@ a{
 .icon{
     margin-top: 2vh;
     margin-left: 1vh;
-    width: 5vh;
-    height: 5vh;
+    width: 7vw;
+    height: 7vw;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -127,9 +127,9 @@ a{
    color: white;
    font-size: 1.4vh;
    padding-top: 2vh;
-   padding-bottom: 3vh;
    padding-left: 2vh;
    line-height: 2.5vh;
+
 }
 #agent-icon{
     grid-area: agent-icon;
@@ -165,15 +165,15 @@ a{
 .showing-btn { 
     text-align: right;
     grid-area: showing-btn;
-    margin-right: 3.5vh;
 }
 #buy-btn{
-    width: 16vh;
-    height: 6vh;
+    width: 10em;
+    height: 4em;
     margin-top: 3.5vh;
     border-radius: 30px;
     border: none;
     font-weight: bold;
+    outline: none;
 }
 #buy-btn:hover{
     -webkit-transform: scale(1.1);
@@ -190,21 +190,24 @@ a{
     padding-top: 2vh;
     margin-left: 1.5vh;
     color: white;
-    font-size: 2.2vh;
+    font-size: 1.2em;
+    display: flex;
+    align-items: flex-end;
 }
 .price { 
     grid-area: price; 
     color: white;
-    font-size: 3vh;
+    font-size: 1.6em;
     padding-top: 3vh;
     line-height: 1.5vh;
     text-align: right;
     margin-right: 3.5vh;
 }
 #price-txt{
-    font-size: 1.6vh;
+    font-size: 0.6em;
 }
 #second-section{
+    position: relative;
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -214,16 +217,15 @@ a{
     background-color: #131313;
 }
 .overall-specs{
-    position: absolute;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
     height: 15vh;
     width: 100%;
     display: grid;
-    grid-template-columns: 3vh 10vh 3vh 11vh 3vh 10.5vh 3vh 15vh;
+    grid-template-columns: 5vw 15vw 5vw 15vw 5vw 15vw 5vw 15vw;
     grid-template-rows: 1fr 1fr;
-    gap: 0px 0px;
+    gap: 0px 5px;
     grid-template-areas:
       "bedrooms-num . bathrooms-num . garages-num . area-num area-num"
       "bedrooms-icon bedrooms-txt bathrooms-icon bathrooms-txt garages-icon garages-txt area-icon area-txt";
@@ -232,16 +234,16 @@ a{
 
 .specs-num{
     margin-top: 2vh;
-    margin-left: 1vh;
-    margin-bottom: 2vh;
+    margin-left: 0.5vw;
+    margin-bottom: 1.2vh;
     font-size: 4.5vh;
     color: #ffffffb7;
     width: 3vh;
 }
 .specs-icon{
     margin-bottom: 2vh;
-    width: 3vh;
-    height: 3vh;
+    width: 5vw;
+    height: 5vw;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -253,13 +255,13 @@ a{
     text-align: center;
     font-weight: 900;
     color: white;
+    margin-left: 1vw;
 }
 #bedrooms-num { grid-area: bedrooms-num; }
 #bathrooms-num { grid-area: bathrooms-num; }
 #garages-num { grid-area: garages-num; }
 #bedrooms-icon { 
     grid-area: bedrooms-icon; 
-    margin-left: 0.6vh;
 }
 #bedrooms-txt { grid-area: bedrooms-txt; }
 #bathrooms-icon {
@@ -268,14 +270,13 @@ a{
 #bathrooms-txt { grid-area: bathrooms-txt; }
 #garages-icon { 
     grid-area: garages-icon; 
-    margin-left: 0.8vh;
-    height: 3vh;
+    height: 4vw;
+    margin-left: 0.7vw;
 }
 #garages-txt { grid-area: garages-txt; }
 #area-icon { 
     grid-area: area-icon; 
     background-image: url();
-    margin-left: 0.8vh;
 }
 #area-num { grid-area: area-num; }
 #area-txt { grid-area: area-txt; }
@@ -295,19 +296,19 @@ a{
 }
 .description-img { 
     grid-area: description-img; 
-    width: 30vh;
+    width: 45vw;
     height: 18vh;
-    margin-top: 3vh;
+    margin-top: 4vh;
     background-image: url("images/r-architecture-Cn87TISYij8-unsplash.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 #desc{
-    font-size: 1vh;
+    font-size: 0.5rem;
 }
 #desc-header{
-    font-size: 3.5vh;
+    font-size: 1.8rem;
 }
 @media(min-width:1200px){
     #navbar a{
