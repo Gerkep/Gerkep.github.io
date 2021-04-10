@@ -75,7 +75,11 @@ a{
 }
 .change-page-btn:hover{
     cursor: pointer;
-    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
 }
 #left-btn{
@@ -169,7 +173,11 @@ a{
     font-weight: bold;
 }
 #buy-btn:hover{
-    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
     cursor: pointer;
     outline: none;
@@ -195,12 +203,17 @@ a{
 }
 #second-section{
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     background-color: #131313;
 }
 .overall-specs{
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     height: 15vh;
     width: 100%;
     display: grid;
@@ -228,6 +241,7 @@ a{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    border-style: none;
 }
 .specs-txt{
     font-size: 1vh;
@@ -241,13 +255,11 @@ a{
 #garages-num { grid-area: garages-num; }
 #bedrooms-icon { 
     grid-area: bedrooms-icon; 
-    background-image: url("/images/bedrooms-white.png");
     margin-left: 0.6vh;
 }
 #bedrooms-txt { grid-area: bedrooms-txt; }
 #bathrooms-icon {
      grid-area: bathrooms-icon;
-     background-image: url("/images/bathrooms-white.png");
 }
 #bathrooms-txt { grid-area: bathrooms-txt; }
 #garages-icon { 
@@ -294,7 +306,9 @@ a{
         font-size: 3vh;
     }
     .about-house{
-        justify-content: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
         margin-top: 22vh;
         grid-template-columns: 15vh 40vh 15vh 40vh 15vh 30vh;
 
