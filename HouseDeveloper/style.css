@@ -40,7 +40,7 @@ a{
     color: #fff;
 }
 #logo{
-    background-image: url("/images/logo-gerke.png");
+    background-image: url("images/logo-gerke.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -267,6 +267,7 @@ a{
 #garages-icon { 
     grid-area: garages-icon; 
     margin-left: 0.8vh;
+    height: 3vh;
 }
 #garages-txt { grid-area: garages-txt; }
 #area-icon { 
@@ -295,6 +296,10 @@ a{
     width: 30vh;
     height: 18vh;
     margin-top: 3vh;
+    background-image: url("images/r-architecture-Cn87TISYij8-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 #desc{
     font-size: 1vh;
