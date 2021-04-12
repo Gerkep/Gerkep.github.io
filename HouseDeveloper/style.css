@@ -22,7 +22,7 @@ a{
 #navbar a {
     float: right;
     padding: 2vh;
-    font-size: 1.6vh;
+    font-size: 2.5vw;
     margin-right: 3vh;
     display: inline;
     margin-top: 1vh;
@@ -105,7 +105,7 @@ a{
 }
 .about-house{
     width: 100%;
-    margin-top: 25vh;
+    margin-top: 30vh;
     display: grid;
     grid-template-columns: 7vw 25vw 7vw 25vw 7vw 25vw;
     grid-template-rows: 1fr 1fr;
@@ -115,7 +115,7 @@ a{
       "agent-icon agent tel-icon tel housework-icon house-work";
 }
 .icon{
-    margin-top: 2vh;
+    margin-top: 3vh;
     margin-left: 1vh;
     width: 7vw;
     height: 7vw;
@@ -125,7 +125,7 @@ a{
 }
 .info{
    color: white;
-   font-size: 1.4vh;
+   font-size: 2vw;
    padding-top: 2vh;
    padding-left: 2vh;
    line-height: 2.5vh;
@@ -159,7 +159,7 @@ a{
     padding-left: 1vh;
  }
  #house-work-txt{
-     font-size: 1vh;
+     font-size: 1.5vw;
      line-height: 1.8vh;
  }
 .showing-btn { 
@@ -236,7 +236,7 @@ a{
     margin-top: 2vh;
     margin-left: 0.5vw;
     margin-bottom: 1.2vh;
-    font-size: 4.5vh;
+    font-size: 4vh;
     color: #ffffffb7;
     width: 3vh;
 }
@@ -250,7 +250,7 @@ a{
     border-style: none;
 }
 .specs-txt{
-    font-size: 1vh;
+    font-size: 1.5vw;
     margin-top: 1vh;
     text-align: center;
     font-weight: 900;
@@ -305,10 +305,10 @@ a{
     background-repeat: no-repeat;
 }
 #desc{
-    font-size: 0.5rem;
+    font-size: 1vw;
 }
 #desc-header{
-    font-size: 1.8rem;
+    font-size: 2.5vw;
 }
 @media(min-width:1200px){
     #navbar a{
