@@ -23,7 +23,6 @@ a{
     float: right;
     padding: 2vh;
     font-size: 2.5vw;
-    margin-right: 3vh;
     display: inline;
     margin-top: 1vh;
     font-weight: 900;
@@ -130,6 +129,7 @@ a{
    padding-left: 2vh;
    line-height: 2.5vh;
 
+
 }
 #agent-icon{
     grid-area: agent-icon;
@@ -167,13 +167,14 @@ a{
     grid-area: showing-btn;
 }
 #buy-btn{
-    width: 10em;
-    height: 4em;
-    margin-top: 3.5vh;
+    width: 20vw;
+    height: 5em;
+    margin-top: 2vh;
     border-radius: 30px;
     border: none;
     font-weight: bold;
     outline: none;
+    background-color: white;
 }
 #buy-btn:hover{
     -webkit-transform: scale(1.1);
@@ -190,21 +191,22 @@ a{
     padding-top: 2vh;
     margin-left: 1.5vh;
     color: white;
-    font-size: 1.2em;
+    font-size: 1.4em;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
 }
 .price { 
     grid-area: price; 
     color: white;
-    font-size: 1.6em;
+    font-size: 3em;
     padding-top: 3vh;
     line-height: 1.5vh;
     text-align: right;
-    margin-right: 3.5vh;
+    margin-right: 1vh;
 }
 #price-txt{
-    font-size: 0.6em;
+    font-size: 0.5em;
+    margin-bottom: 0.3vh;
 }
 #second-section{
     position: relative;
@@ -256,6 +258,7 @@ a{
     font-weight: 900;
     color: white;
     margin-left: 1vw;
+    
 }
 #bedrooms-num { grid-area: bedrooms-num; }
 #bathrooms-num { grid-area: bathrooms-num; }
@@ -313,6 +316,7 @@ a{
 @media(min-width:1200px){
     #navbar a{
         font-size: 3vh;
+        margin-right: 6vw;
     }
     .about-house{
         -webkit-box-pack: center;
@@ -346,9 +350,13 @@ a{
         height: 7vh;
         border-radius: 40px;
         font-size: 2vh;
+        margin-top: 5vh;
     }
     .price{
         font-size: 4.5vh;
+    }
+    #price-txt{
+        margin-bottom: 2.5vh;
     }
     .overall-specs{
         grid-template-columns: 6vh 20vh 6vh 22vh 6vh 21vh 6vh 30vh;
@@ -370,6 +378,9 @@ a{
         font-weight: 900;
         color: white;
     }
+    #garages-icon{
+        height: 4.5vh;
+    }
     .description{
        margin-left: 6vh;
        margin-top: 5vh;
@@ -379,7 +390,7 @@ a{
         font-size: 5vh;
     }
     #desc{
-        font-size: 2vh;
+        font-size: 1.2em;
     }
     .description-img{
         margin-left: 5vh;

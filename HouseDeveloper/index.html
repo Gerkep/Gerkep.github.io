@@ -13,13 +13,13 @@
         <div id="shadow">
         <header id="navbar">
                 <div id="logo"></div>
-                <a href="#">About us</a>
-                <a href="#">Locations</a>
-                <a href="#">Offer</a>
+                <a href="#" onclick="showAlert()">About us</a>
+                <a href="#" onclick="showAlert()">Locations</a>
+                <a href="#" onclick="showAlert()">Offer</a>
         </header>
         <div class="page-buttons">
-            <button class="change-page-btn" id="left-btn"> </button>
-            <button class="change-page-btn" id="right-btn"> </button>
+            <button class="change-page-btn" id="left-btn" onclick="showAlert()"> </button>
+            <button class="change-page-btn" id="right-btn" onclick="showAlert()"> </button>
         </div>
 
         <div class="about-house">
@@ -31,7 +31,7 @@
                 <div class="icon" id="housework-icon"> </div>
                 <div class="info" id="house-work">HOUSE WORK<br><p id="house-work-txt">Monday-Friday 8:00-20:00<br>Weekend Closed</p></div>
                 <div class="showing-btn"></div>
-                <div class="price"><p id="price-txt">PRICE:</p><br>$2,747,799<br><button id="buy-btn">SHOWING</button></div>
+                <div class="price"><p id="price-txt">PRICE:</p><br>$2,747,799<br><button onclick="showAlert()" id="buy-btn">SHOWING</button></div>
         </div>
       </div>
      </div>
@@ -62,5 +62,7 @@
              <div class="description-img"></div>
          </div>
      </div>
+
+     <script src="js/buttons.js"></script>
   </body>
 </html>
