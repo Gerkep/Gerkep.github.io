@@ -104,7 +104,7 @@ a{
 }
 .about-house{
     width: 100%;
-    margin-top: 55vh;
+    margin-top: 44vh;
     display: grid;
     grid-template-columns: 7vw 25vw 7vw 25vw 7vw 25vw;
     grid-template-rows: 1fr 1fr;
@@ -167,7 +167,7 @@ a{
     grid-area: showing-btn;
 }
 #buy-btn{
-    width: 20vw;
+    width: 25vw;
     height: 5em;
     margin-top: 2vh;
     border-radius: 30px;
