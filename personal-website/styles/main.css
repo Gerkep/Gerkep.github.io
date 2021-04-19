@@ -23,15 +23,22 @@ html, body{
     border-radius: 8px;
     outline: none;
 }
-#contact-btn{
-    background-image: url("/images/burger-menu.png");
-    background-size: cover;
-    background-position: center;
+.contact-btn{
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+#contact-img{
+    height: 4vh;
+    width: 10vw;
+    float: left;
+    margin-right: 3vw;
 }
 .dropdown {
     float: right;
     overflow: hidden;
-    margin-top: 1vh;
+    margin-top: 4vh;
+    margin-right: 2vh;
   }
   .dropdown .button {
     color: white;
@@ -69,11 +76,13 @@ html, body{
       transform: translateX(170%);
       transition: all 0.8s ease;
       margin-top: 0;
+      text-decoration: none;
   }
   .dropdown-tel{
     transform: translateX(-260%);
       transition: all 0.8s ease;
       margin-top: 3vh;
+      text-decoration: none;
   }
   .show {
       transform: translateX(0);
