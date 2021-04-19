@@ -23,9 +23,15 @@ html, body{
     border-radius: 8px;
     outline: none;
 }
+#contact-btn{
+    background-image: url("/images/burger-menu.png");
+    background-size: cover;
+    background-position: center;
+}
 .dropdown {
     float: right;
     overflow: hidden;
+    margin-top: 1vh;
   }
   .dropdown .button {
     color: white;
@@ -40,7 +46,7 @@ html, body{
   }
   .dropdown-content {
       margin-top: 8vh;
-      right: 5px;
+      left: 5vw;
     position: absolute;
     background-color: inherit;
     min-width: 300px;
@@ -48,28 +54,26 @@ html, body{
     -webkit-box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
             box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 100;
-    text-align: right;
+
   }
   
   .dropdown-content h2 {
       font-size: 5vw;
-    float: right;
+    float: left;
     color: rgb(252, 252, 252);
     text-decoration: none;
     display: block;
     text-shadow: 3px 3px rgba(0,0,0,1);
   }
   .dropdown-email{
-      transform: translateX(160%);
+      transform: translateX(170%);
       transition: all 0.8s ease;
-      position: absolute;
       margin-top: 0;
   }
   .dropdown-tel{
-    transform: translateX(-120%);
-      transition: all 1s ease;
-      position: absolute;
-      margin-top: 5vh;
+    transform: translateX(-260%);
+      transition: all 0.8s ease;
+      margin-top: 3vh;
   }
   .show {
       transform: translateX(0);
@@ -83,7 +87,7 @@ html, body{
     margin-left: 5vw;
     margin-top: 5vh;
     color: white;
-    font-size: 4em;
+    font-size: 1.4em;
     text-shadow: 3px 3px rgba(0,0,0,1);
     position: absolute;
 }
