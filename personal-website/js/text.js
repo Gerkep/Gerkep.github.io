@@ -1,10 +1,13 @@
-const text = document.querySelector(".fixed .fixed-text .text");
+const text = document.querySelector(".passion-txt");
 const strText = text.textContent;
 const splitText = strText.split("");
 text.textContent = "";
 
 for (let i=0; i < splitText.length; i++){
   text.innerHTML += "<span>" + splitText[i] + "</span>";
+  if(i == 11){
+    text.innerHTML += "<br>";
+  }
 }
 
 let char = 0;
