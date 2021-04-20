@@ -115,30 +115,21 @@ html, body{
     position: absolute;
 
 }
-.glitch{
-    margin-left: 5vw;
+.passion-txt{
     color: white;
-    font-size: 1.8em;
-    font-weight: 900;
-    text-transform: uppercase;
-    position: relative;
-    text-shadow: 
-    0.08em 0 0 rgba(255, 0, 0, .75),
-    -0.025em -0.05em 0 rgba(0, 255, 221, 0.75),
-    0.025em 0.05em 0 rgba(0, 0, 255, .75);
-
-    animation: glitch 500ms infinite;
+    margin-left: 5vw;
+    font-size: 2em;
+    text-shadow: 0.3em 0.3em black;
+    font-weight: bold;
 }
-.glitch span{
-    position: absolute;
-    top: 0;
-    left: 0;
+.passion-txt span{
+    opacity: 0;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
-.glitch span:first-child{
-    animation: glitch 650ms infinite;
-    clip-path: polygon(0 0, 100% 0, 100% 30%, 0 30%);
-    transform: translate(-0.025em, -0.0125em);
-    opacity: .6;
+.first-section .smart-txt .passion-txt span.fade{
+    opacity: 1;
 }
 .second-section{
     margin-top: -5vh;
@@ -150,44 +141,7 @@ html, body{
     color: white;
     padding-bottom: 5vh;
 }
- @keyframes glitch{
-   0%{
-        text-shadow: 
-        0.06em 0 0 rgba(255, 0, 0, .75),
-        -0.05em -0.025em 0 rgba(0, 255, 221, 0.75),
-        -0.025em 0.03em 0 rgba(0, 0, 255, .75);
-    }14%{
-        text-shadow: 
-        0.06em 0 0 rgba(255, 0, 0, .75),
-        -0.05em -0.025em 0 rgba(0, 255, 221, 0.75),
-        -0.025em 0.03em 0 rgba(0, 0, 255, .75);
-    }15%{
-        text-shadow: 
-        -0.03em -0.015em 0 rgba(255, 0, 0, .75),
-        0.025em 0.025em 0 rgba(0, 255, 221, 0.75),
-        -0.05em -0.02em 0 rgba(0, 0, 255, .75);
-    }49%{
-        text-shadow: 
-        -0.03em -0.015em 0 rgba(255, 0, 0, .75),
-        0.025em 0.025em 0 rgba(0, 255, 221, 0.75),
-        -0.05em -0.02em 0 rgba(0, 0, 255, .75);
-    }50%{
-        text-shadow: 
-        0.025em 0.04em 0 rgba(255, 0, 0, .75),
-        0.05em 0 0 rgba(0, 255, 221, 0.75),
-        0 -0.05em 0 rgba(0, 0, 255, .75);
-    }99%{
-        text-shadow: 
-        0.020em 0.03em 0 rgba(255, 0, 0, .75),
-        0.05em 0 0 rgba(0, 255, 221, 0.75),
-        0 -0.03em 0 rgba(0, 0, 255, .75);
-    }100%{
-        text-shadow: 
-        -0.020em 0.03em 0 rgba(255, 0, 0, .75),
-        -0.025em -0.025em 0 rgba(0, 255, 221, 0.75),
-        -0.025em -0.03em 0 rgba(0, 0, 255, .75);
-    }
-}
+
 
 #work-btn{
     margin-top: 3vh;
