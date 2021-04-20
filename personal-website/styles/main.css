@@ -140,12 +140,6 @@ html, body{
     transform: translate(-0.025em, -0.0125em);
     opacity: .6;
 }
-.glitch span:last-child{
-    animation: glitch 700ms infinite;
-    clip-path: polygon(0 60%, 100% 60%, 100% 100%, 0 100%);
-    transform: translate(0.0125em, 0.025em);
-    opacity: .8;
-}
 .second-section{
     margin-top: -5vh;
     padding-top: 25vh;
