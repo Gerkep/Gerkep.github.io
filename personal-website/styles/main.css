@@ -141,7 +141,7 @@ html, body{
     opacity: .6;
 }
 .glitch span:last-child{
-    animation: glitch 360ms infinite;
+    animation: glitch 700ms infinite;
     clip-path: polygon(0 60%, 100% 60%, 100% 100%, 0 100%);
     transform: translate(0.0125em, 0.025em);
     opacity: .8;
