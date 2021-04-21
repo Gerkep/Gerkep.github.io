@@ -4,7 +4,7 @@ html, body{
     width: 100%;
     font-family: 'Montserrat', sans-serif;
     background-color: black;
-    background-image: url("/images/pawel-czerwinski-e6GqM-a7O20-unsplash.jpg");
+    background-image: url("https://images.unsplash.com/photo-1595364237783-18144c05cd79?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
