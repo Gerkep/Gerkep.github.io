@@ -40,7 +40,7 @@ html, body{
 .dropdown {
     float: right;
     overflow: hidden;
-    margin-top: 4vh;
+    margin-top: 5.5vh;
     margin-right: 2vh;
   }
   .dropdown .button {
@@ -70,10 +70,10 @@ html, body{
   .dropdown-content h2 {
       font-size: 5vw;
     float: left;
-    color: rgb(252, 252, 252);
+    color: rgb(0, 0, 0);
     text-decoration: none;
     display: block;
-    text-shadow: 3px 3px rgba(0,0,0,1);
+    text-shadow: 1px 1px rgba(255, 255, 255, 0.801);
   }
   .dropdown-email{
       transform: translateX(170%);
@@ -99,21 +99,21 @@ html, body{
     float: left;
     margin-left: 5vw;
     margin-top: 5vh;
-    color: white;
-    font-size: 2em;
-    text-shadow: 3px 3px rgba(0,0,0,1);
+    color: rgb(0, 0, 0);
+    font-size: 2.5em;
+    text-shadow: 1px 1px rgba(255, 255, 255, 0.801);
     position: absolute;
-    font-weight: 1000;
+    font-weight: 1200;
 }
 .first-section{
-    margin-top: 24vh;
+    margin-top: 20vh;
     width: 100%;
     height: 65vh;
     clip-path: polygon(0 0, 100% 25%, 100% 100%, 0 80%);
     background-color: #131313;
 }
 .smart-txt{
-    margin-top: 12vh;
+    margin-top: 16vh;
     height: 50vh;
     width: 100%;
     position: absolute;
