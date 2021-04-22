@@ -161,19 +161,20 @@ body::after{
     width: 40vw;
 }
 .third-circle{
-    margin-top: 70vh;
+    margin-top: 100vh;
     content: '';
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 140%;
-    background: linear-gradient(#ff00dd, #1d0101);
-    clip-path: circle(23% at 10% 35%);
+    background: linear-gradient(#ff00dd, #00ffea);
+    clip-path: circle(28% at 10% 22%);
 }
 .container{ 
-    background: rgb(0,0,0);
-    background: linear-gradient(347deg, rgba(0,0,0,1) 34%, rgba(60,60,60,1) 100%);
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, .5);
+    background: rgba(255, 255, 255, 0.1);
+    overflow: hidden;
     margin-bottom: 5vh;
     margin: 5vw;
     width: 35vw;
@@ -181,22 +182,39 @@ body::after{
     text-align: center;
     padding: 2vw;
     padding-right: 0;
-    border-radius: 8px;
+    border-radius: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
     z-index: 2;
+    color: white;
 }
 .container h2{
     font-size: 0.6em;
     text-align: left;
+    font-weight: bold;
 }
 .container p{
     margin-top: 5vh;
     font-size: 0.6em;
     text-align: left;
+    font-weight: bold;
+    line-height: 2em;
+}
+.skills .container .content{
+    transition: 0.5s;
+    transform: translateY(10px);
+    opacity: 0.7;
+}
+.skills .container:hover .content{
+    transition: 0.5s;
+    transform: translateY(0px);
+    opacity: 1;
 }
 
 .skills{
     background-color: transparent;
-    margin-top: 100vh;
+    margin-top: 90vh;
     display: grid;
     grid-template-columns: 50vw 50vw;
     grid-template-rows: 30vh 30vh;
@@ -205,15 +223,11 @@ body::after{
       "responsive mobile"
       "dynamic database";
 }
-#responsive { grid-area: responsive; 
-    background: linear-gradient(#2196f3, #e91e63);}
+#responsive { grid-area: responsive; }
 
-#mobile { grid-area: mobile; 
-    background: rgb(63,255,124);
-    background: linear-gradient(160deg, rgba(63,255,124,1) 0%, rgba(30,255,223,1) 100%);}
+#mobile { grid-area: mobile; }
 .dynamic { grid-area: dynamic; }
-#database { grid-area: database; 
-    background: linear-gradient(#f00, #f0f);}
+#database { grid-area: database; }
 .container-icon{
     height: 3.8vh;
     width: 8vw;
