@@ -3,11 +3,27 @@ html, body{
     padding: 0;
     width: 100%;
     font-family: 'Montserrat', sans-serif;
-    background-color: black;
-    background-image: url("https://images.unsplash.com/photo-1595364237783-18144c05cd79?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background: #161623;
+}
+body::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#f00, #f0f);
+    clip-path: circle(30% at right 70%);
+}
+body::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#2196f3, #e91e63);
+    clip-path: circle(20% at 10% 10%);
 }
 
 .navbar{
@@ -19,7 +35,8 @@ html, body{
 .button{
     background: rgb(0,0,0);
     background: linear-gradient(347deg, rgba(0,0,0,1) 34%, rgba(60,60,60,1) 100%);
-    border: 5px solid rgb(39, 39, 39);
+    border: none;
+    box-shadow: 0.2em 0.2em rgba(0, 0, 0, 0.493);
     color: white;
     padding: 4vw;
     font-weight: bold;
@@ -40,8 +57,8 @@ html, body{
 .dropdown {
     float: right;
     overflow: hidden;
-    margin-top: 5.5vh;
-    margin-right: 2vh;
+    margin-top: 2.5vh;
+    margin-right: 3vw;
   }
   .dropdown .button {
     color: white;
@@ -55,25 +72,23 @@ html, body{
     margin-top: 3vh;
   }
   .dropdown-content {
-      margin-top: 8vh;
+      margin-top: 4vh;
       left: 5vw;
     position: absolute;
-    background-color: inherit;
+    background-color: transparent;
     min-width: 300px;
     overflow: hidden;
-    -webkit-box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 100;
+    z-index: 1;
 
   }
   
   .dropdown-content h2 {
       font-size: 5vw;
     float: left;
-    color: rgb(0, 0, 0);
+    color: white;
     text-decoration: none;
     display: block;
-    text-shadow: 1px 1px rgba(255, 255, 255, 0.801);
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.801);
   }
   .dropdown-email{
       transform: translateX(170%);
@@ -97,23 +112,27 @@ html, body{
   }
 #logo{
     float: left;
-    margin-left: 5vw;
-    margin-top: 5vh;
-    color: rgb(0, 0, 0);
-    font-size: 2.5em;
-    text-shadow: 1px 1px rgba(255, 255, 255, 0.801);
+    margin-left: 20vw;
+    margin-top: 2vh;
+    color: rgb(255, 255, 255);
     position: absolute;
-    font-weight: 1200;
+    z-index: 2;
 }
-.first-section{
-    margin-top: 20vh;
-    width: 100%;
-    height: 65vh;
-    clip-path: polygon(0 0, 100% 25%, 100% 100%, 0 80%);
-    background-color: #131313;
+#logo p{
+    font-size: 2em;
+    margin: 0;
+    margin-left: 46vw;
+    margin-top: 24.5vh;
+    position: absolute;
+}
+#logo h2{
+    font-size: 5em;
+    margin: 0;
+    position: absolute;
+    margin-top: 26vh;
 }
 .smart-txt{
-    margin-top: 16vh;
+    margin-top: 40vh;
     height: 50vh;
     width: 100%;
     position: absolute;
@@ -123,7 +142,7 @@ html, body{
     color: white;
     margin-left: 5vw;
     font-size: 2em;
-    text-shadow: 0.3em 0.3em black;
+    text-shadow: 0.1em 0.1em black;
     font-weight: bold;
 }
 .passion-txt span{
@@ -132,33 +151,14 @@ html, body{
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
 }
-.first-section .smart-txt .passion-txt span.fade{
+.smart-txt .passion-txt span.fade{
     opacity: 1;
 }
-.second-section{
-    margin-top: -5vh;
-    padding-top: 25vh;
-    width: 100%;
-    height: 80vh;
-    clip-path: polygon(0 15%, 100% 0%, 100% 85%, 0% 100%);
-    background-color: #0f0f0f;
-    color: white;
-    padding-bottom: 5vh;
-}
-
 
 #work-btn{
     margin-top: 3vh;
     margin-left: 43vw;
     width: 40vw;
-}
-.third-section{
-    margin-top: -20vh;
-    padding-top: 25vh;
-    width: 100%;
-    height: 60vh;
-    clip-path: polygon(0 0, 100% 20%, 100% 100%, 0 100%);
-   background-color: black;
 }
 .container{ 
     background: rgb(0,0,0);
@@ -182,19 +182,24 @@ html, body{
     text-align: left;
 }
 .skills{
+    margin-top: 100vh;
     display: grid;
     grid-template-columns: 50vw 50vw;
     grid-template-rows: 30vh 30vh;
     gap: 0px 0px;
     grid-template-areas:
       "responsive mobile"
-      "dynamic contact";
+      "dynamic database";
 }
-.responsive { grid-area: responsive; }
+#responsive { grid-area: responsive; 
+    background: linear-gradient(#2196f3, #e91e63);}
 
-.mobile { grid-area: mobile; }
+#mobile { grid-area: mobile; 
+    background: rgb(63,255,124);
+    background: linear-gradient(160deg, rgba(63,255,124,1) 0%, rgba(30,255,223,1) 100%);}
 .dynamic { grid-area: dynamic; }
-.contact { grid-area: contact; }
+#database { grid-area: database; 
+    background: linear-gradient(#f00, #f0f);}
 .container-icon{
     height: 3.8vh;
     width: 8vw;
@@ -207,6 +212,11 @@ html, body{
     margin-right: 2vw;
 }
 .third-section{
+    width: 100%;
+    height: 60vh;
+    clip-path: polygon(0 0, 100% 20%, 100% 100%, 0 100%);
+    margin-top: 10vh;
+    padding-top: 20vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -214,6 +224,16 @@ html, body{
     color: white;
     background-color: #131313;
     padding-bottom: 15vh;
+}
+.border{
+    width: 100%;
+    height: 61vh;
+    clip-path: polygon(0 0, 100% 20%, 100% 100%, 0 100%);
+    margin-top: 8vh;
+    padding-top: 20vh;
+    padding-bottom: 15vh;
+    background: linear-gradient(#2196f3, #e91e63);
+    position: absolute;
 }
 input{
     margin: 3vh;
