@@ -212,8 +212,8 @@ body::after{
     background-color: white;
     -webkit-transition: 1s;
     -o-transition: 1s;
-    transition: 1s;
-    -webkit-transition-delay: calc(0.8s * var(--i));
+    transition: 0.8s;
+    -webkit-transition-delay: calc(0.2s * var(--i));
          -o-transition-delay: calc(0.8s * var(--i));
             transition-delay: calc(0.8s * var(--i));
     opacity: 0;
