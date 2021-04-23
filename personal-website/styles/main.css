@@ -176,14 +176,24 @@ body::after{
     z-index: 3;
     -webkit-backdrop-filter: blur(10px);    
     backdrop-filter: blur(10px);
-    transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+        -ms-transform: translateX(100%);
+            transform: translateX(100%);
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
     transition: all 0.4s ease;
+   display: -webkit-box;
+   display: -ms-flexbox;
    display: flex;
-   justify-content: center;
+   -webkit-box-pack: center;
+       -ms-flex-pack: center;
+           justify-content: center;
    text-align: center;
 }
 .slide-in{
-    transform: translateX(0);
+    -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+            transform: translateX(0);
     position: fixed;
 }
 #close-btn{
@@ -200,13 +210,19 @@ body::after{
     margin: 5vh;
     padding: 1vh 3vw;
     background-color: white;
+    -webkit-transition: 1s;
+    -o-transition: 1s;
     transition: 1s;
-    transition-delay: calc(0.8s * var(--i));
+    -webkit-transition-delay: calc(0.8s * var(--i));
+         -o-transition-delay: calc(0.8s * var(--i));
+            transition-delay: calc(0.8s * var(--i));
     opacity: 0;
 }
 .slide-in .work-attachments li{
     opacity: 1;
-    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
 }
 .work-attachments li a{
     text-decoration: none;
