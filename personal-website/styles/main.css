@@ -160,6 +160,12 @@ body::after{
     margin-left: 43vw;
     width: 40vw;
 }
+.work{
+    overflow: hidden;
+    margin-top: 4vh;
+      left: 5vw;
+    position: absolute;
+}
 .work-page{
     position: absolute;
     top: 0;
@@ -171,6 +177,7 @@ body::after{
     backdrop-filter: blur(10px);
     transform: translateX(100%);
     transition: all 0.4s ease;
+   
 }
 .slide-in{
     transform: translateX(0);
