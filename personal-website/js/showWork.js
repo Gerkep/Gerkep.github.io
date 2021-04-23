@@ -1,5 +1,8 @@
+const button = document.getElementById("my-work")
+
+
 function workAppear(){
-    document.getElementById("my-work").classList.toggle("slide-in");
+    button.classList.toggle("slide-in");
 }
 
 function workDisappear(){
