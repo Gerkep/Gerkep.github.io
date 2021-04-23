@@ -12,7 +12,7 @@ body::before{
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(#f00, #f0f);
+    background: linear-gradient(#00ff15, #0077ff);
     clip-path: circle(30% at right 70%);
 }
 body::after{
@@ -22,7 +22,7 @@ body::after{
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(#2196f3, #e91e63);
+    background: linear-gradient(#00ff6a, #0014ff);
     clip-path: circle(20% at 10% 10%);
 }
 
@@ -160,6 +160,20 @@ body::after{
     margin-left: 43vw;
     width: 40vw;
 }
+.work-page{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0015ffa9;
+    z-index: 3;
+    transform: translateX(100%);
+    transition: all 0.4s ease;
+}
+.slide-in{
+    transform: translateX(0);
+}
 .third-circle{
     margin-top: 100vh;
     content: '';
@@ -167,9 +181,9 @@ body::after{
     top: 0;
     left: 0;
     width: 100%;
-    height: 140%;
-    background: linear-gradient(#ff00dd, #00ffea);
-    clip-path: circle(28% at 10% 22%);
+    height: 110%;
+    background: linear-gradient(#00c3ff, #ff00dd);
+    clip-path: circle(45% at 10% 40%);
 }
 .container{ 
     box-shadow: 20px 20px 50px rgba(0, 0, 0, .5);
@@ -216,7 +230,7 @@ body::after{
 
 .skills{
     background-color: transparent;
-    margin-top: 90vh;
+    margin-top: 85vh;
     display: grid;
     grid-template-columns: 50vw 50vw;
     grid-template-rows: 30vh 30vh;
@@ -262,8 +276,11 @@ body::after{
     margin-top: 8vh;
     padding-top: 20vh;
     padding-bottom: 15vh;
-    background: linear-gradient(#2196f3, #e91e63);
+    background: linear-gradient(#a621f373, #e91e63);
     position: absolute;
+    -webkit-backdrop-filter: blur(10px);    
+    backdrop-filter: blur(10px);
+    box-shadow: inset 0px 0px 40px 40px #32dbc4;
 }
 input{
     margin: 3vh;
