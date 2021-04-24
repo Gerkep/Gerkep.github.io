@@ -161,14 +161,7 @@ body::after{
     width: 40vw;
     cursor: pointer;
 }
-.work{
-    overflow: hidden;
-    height: 1px;
-    width: 1px;
-    margin-top: 4vh;
-      left: 5vw;
-    position: absolute;
-}
+
 .work-page{
     position: absolute;
     top: 0;
