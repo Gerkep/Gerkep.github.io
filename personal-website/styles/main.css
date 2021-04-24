@@ -163,7 +163,8 @@ body::after{
 }
 .work{
     overflow: hidden;
-
+    height: 1px;
+    width: 1px;
     margin-top: 4vh;
       left: 5vw;
     position: absolute;
