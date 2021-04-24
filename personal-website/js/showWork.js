@@ -8,5 +8,6 @@ function workAppear(){
 }
 
 function workDisappear(){
-    document.getElementById("my-work").classList.remove("slide-in");
+    slide.classList.remove("slide-in");
+    back.classList.remove("slide-in");
 }
