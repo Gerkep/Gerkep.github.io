@@ -163,8 +163,7 @@ body::after{
 }
 .work{
     overflow: hidden;
-    width: 65%;
-    height: 100%;
+
     margin-top: 4vh;
       left: 5vw;
     position: absolute;
@@ -179,9 +178,9 @@ body::after{
     background: rgba(255, 255, 255, 0.1);
     -webkit-backdrop-filter: blur(7px);    
     backdrop-filter: blur(7px);
-    -webkit-transform: translateX(100%);
-        -ms-transform: translateX(100%);
-            transform: translateX(100%);
+    -webkit-transform: translateX(120%);
+        -ms-transform: translateX(120%);
+            transform: translateX(120%);
     -webkit-transition: all 0.7s ease;
     -o-transition: all 0.7s ease;
     transition: all 0.7s ease;
