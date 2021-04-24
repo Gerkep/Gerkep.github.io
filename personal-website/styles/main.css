@@ -189,6 +189,7 @@ body::after{
  
 }
 .slide-in{
+    overflow: visible;
     -webkit-transform: translateX(0);
         -ms-transform: translateX(0);
             transform: translateX(0);
