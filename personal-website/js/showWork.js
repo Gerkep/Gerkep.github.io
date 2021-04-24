@@ -1,8 +1,10 @@
-const button = document.getElementById("my-work")
+const slide = document.getElementById("my-work")
+const back = document.getElementById("back-work")
 
 
 function workAppear(){
-    button.classList.toggle("slide-in");
+    slide.classList.toggle("slide-in");
+    back.classList.toggle("slide-in");
 }
 
 function workDisappear(){
