@@ -4,7 +4,7 @@ html, body{
     width: 100%;
     font-family: 'Montserrat', sans-serif;
     background: #161623;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 body::before{
     content: '';
