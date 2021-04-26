@@ -7,7 +7,6 @@ html, body{
     position: relative;
     overflow-x: hidden;
 }
-
 body::before{
     content: '';
     position: absolute;
@@ -178,7 +177,7 @@ body::after{
     position: absolute;
     top: 0;
     right: 0;
-    width: 65%;
+    width: 100%;
     height: 100%;
     z-index: 3;
     -webkit-transform: translateX(120%);
@@ -194,6 +193,7 @@ body::after{
     right: 0;
     width: 100%;
     height: 100%;
+    text-align: center;
     z-index: 3;
     background: rgba(255, 255, 255, 0.1);
     -webkit-backdrop-filter: blur(7px);    
@@ -213,15 +213,19 @@ body::after{
         -ms-transform: translateX(0%);
             transform: translateX(0%);
     position: fixed;
-    
-
+}
+#websites-header{
+    font-size: 3em;
+    color: white;
+    margin-top: 15vh;
 }
 #close-btn{
+    position: absolute;
     height: 8vh;
     width: 16vw;
-    left: 10vw;
+    right: 10vw;
     border: none;
-    margin-top: 10vh;
+    top: 3vh;
     background-color: transparent;
     cursor: pointer;
     color: white;
@@ -250,6 +254,7 @@ body::after{
          -o-transition-delay: calc(0.8s * var(--i));
             transition-delay: calc(0.8s * var(--i));
     opacity: 0;
+
 }
 .work-attachments li a:hover{
     transform: scale(1.1);
@@ -257,9 +262,9 @@ body::after{
 }
 .slide-in .work-attachments li{
     opacity: 1;
-    -webkit-transform: translateX(-20%);    
-    -ms-transform: translateX(-20%);    
-    transform: translateX(-20%);
+    -webkit-transform: translateX(0%);    
+    -ms-transform: translateX(0%);    
+    transform: translateX(0%);
 }
 .work-attachments li a{
     text-decoration: none;
