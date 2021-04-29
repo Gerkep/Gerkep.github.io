@@ -263,7 +263,7 @@ svg {
 }
 .work-attachments{
     position: absolute;
-    top: 30vh;
+    top: 40vh;
     display: -webkit-box;
     display: flex;
     flex-wrap: wrap;
@@ -284,7 +284,7 @@ svg {
     max-width: 40vh;
     background-position: center;
     background-repeat: no-repeat;
-    height: 12vh;
+    height: 10vh;
     width: 20vw;
     margin: 0vh 1vh;
     position: relative;
@@ -319,9 +319,8 @@ svg {
     text-transform: uppercase;
     cursor: pointer;
 }
-#soon{
+#work-soon{
     background-color: rgb(172, 172, 172);
-    transform: rotate(30deg);
 }
 
 
