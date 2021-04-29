@@ -263,19 +263,36 @@ svg {
 }
 .work-attachments{
     position: absolute;
-    top: 20vh;
-    z-index: 100;
+    top: 30vh;
+    display: -webkit-box;
     display: flex;
     flex-wrap: wrap;
+    list-style: none;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    max-width: 100vh;
+    margin: 0 auto;
+    padding: 0;
+
     width: 100%;
 }
 .work-attachments li{
+    text-decoration: none;
+    -webkit-box-flex: 0;
+    max-width: 40vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 12vh;
+    width: 20vw;
+    margin: 0vh 1vh;
+    position: relative;
+    padding: 0.5em;
     text-align: center;
-    list-style: none;
-    margin: 2vh;
-    padding: 1vh 3vw;
-    width: 32vw;
-    height: 14vh;
+    z-index: 1;
+    box-shadow: 0px 0px 15px 0 rgba(0, 0, 0, 0.1);
+    clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
     background-color: white;
     -webkit-transition: 1s;
     -o-transition: 1s;
@@ -284,7 +301,6 @@ svg {
          -o-transition-delay: calc(0.8s * var(--i));
             transition-delay: calc(0.8s * var(--i));
     opacity: 0;
-    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
 
 }
 .work-attachments li a:hover{
@@ -305,6 +321,7 @@ svg {
 }
 #soon{
     background-color: rgb(172, 172, 172);
+    transform: rotate(30deg);
 }
 
 
