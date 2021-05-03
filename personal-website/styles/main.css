@@ -275,7 +275,6 @@ svg {
     max-width: 100vh;
     margin: 0 auto;
     padding: 0;
-
     width: 100%;
 }
 .work-attachments li{
@@ -306,8 +305,8 @@ svg {
     flex-wrap: wrap;
     justify-content: center;
 }
-.work-attachments li a:hover{
-    transform: scale(1.1);
+.work-attachments li:hover{
+    -webkit-transform: scale(1.1);    -ms-transform: scale(1.1);    transform: scale(1.1);
 
 }
 .slide-in .work-attachments li{
@@ -322,11 +321,14 @@ svg {
     text-transform: uppercase;
     cursor: pointer;
     font-size: 0.7em;
-
+    margin-top: 1vh;
     font-weight: bold;
 }
 #work-soon{
     background-color: rgb(95, 95, 95);
+    background-image: url("/images/julius-drost-dS-q7-zkD9c-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
 }
 .container{ 
     box-shadow: 20px 20px 50px rgba(0, 0, 0, .5);
