@@ -245,9 +245,9 @@ svg {
     color: white;
     margin-top: 15vh;
 }
-#close-work{
+#close-button{
     top: 3vh;
-    right: 10vw;
+    right: 12vw;
     position: absolute;
     width: 14vw;
     height: 6vh;
