@@ -246,8 +246,8 @@ svg {
     margin-top: 15vh;
 }
 #close-button{
-    top: 3vh;
-    right: 12vw;
+    top: 0.8vh;
+    left: 80vw;
     position: absolute;
     width: 14vw;
     height: 6vh;
