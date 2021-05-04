@@ -245,17 +245,12 @@ svg {
     color: white;
     margin-top: 15vh;
 }
-#close-btn{
-    position: absolute;
-    height: 8vh;
-    width: 16vw;
-    right: 10vw;
-    border: none;
+#close-work{
     top: 3vh;
-    background: none;
-    cursor: pointer;
-    color: white;
-    box-shadow: 2em 2em 5em rgb(0, 0, 0);
+    right: 10vw;
+    position: absolute;
+    width: 14vw;
+    height: 6vh;
 }
 .img-btn{
     width: 100%;
