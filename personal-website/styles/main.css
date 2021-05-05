@@ -88,16 +88,19 @@ svg {
     border-radius: 8px;
     outline: none;
 }
-.contact-btn{
+#contact-btn{
+    margin-top: 1vh;
     background-color: transparent;
     outline: none;
     border: none;
 }
+
 #contact-img{
     height: 4.5vh;
     width: 10vw;
     float: left;
     margin-right: 3vw;
+
 }
 .dropdown {
     float: right;
@@ -152,9 +155,10 @@ svg {
       transform: translateX(0);
     
     }
-  #contact-btn{
-      margin-top: 3vh;
-  }
+    .rotate{
+        transform: rotate(90deg);
+        transition: all 0.5s ease;
+    }
 #logo{
     float: left;
     margin-left: 20vw;
@@ -185,11 +189,13 @@ svg {
 }
 .passion-txt{
     color: white;
-    margin-left: 5vw;
+    margin-left: 3.5vw;
     font-size: 2em;
     text-shadow: 0.1em 0.1em black;
     font-weight: bold;
     line-height: 6.5vh;
+    border-left: solid white 2px;
+    padding-left: 4vw;
 }
 .passion-txt span{
     opacity: 0;
@@ -434,4 +440,85 @@ textarea{
 }
 #submit-btn{
     width: 35vw;
+}
+@media(min-width:1200px){
+    #insta-button{
+        left: 2vw;
+        width: 8vw;
+        height: 12vh;
+    }
+    #github-button{
+        left: 14vw;
+        width: 8vw;
+        height: 12vh;
+    }
+    .button{
+        box-shadow: 0.4em 0.4em rgba(0, 0, 0, 0.493);
+        padding: 2vw;
+        border-radius: 12px;
+    }
+    #contact-img{
+        margin-top: 3vh;
+        width: 6vw;
+        height: 10vh;
+    }
+    .dropdown-content{
+        top: 0;
+        left: 25vw;
+        width: 60vw;
+    }
+    .dropdown-content h2{
+        font-size: 2em;
+    }
+
+    .dropdown-email{
+        transform: translateX(270%);
+    }
+    .dropdown-tel{
+      transform: translateX(-260%);
+      margin-top: 5vh;
+    }
+    .show {
+        transform: translateX(60%);
+      
+      }
+      #logo p{
+        font-size: 6em;
+        margin: 0;
+        margin-left: 13vw;
+        margin-top: 28vh;
+        position: absolute;
+    }
+    #logo h2{
+        font-size: 10em;
+        margin: 0;
+        position: absolute;
+        margin-top: 36vh;
+        margin-left: 13vw;
+    }
+    .passion-txt{
+        font-size: 3em;
+        line-height: 8vh;
+
+        padding: 2vw;
+    }
+    .third-circle{
+        margin-top: 120vh;
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 40%;
+        background: linear-gradient(#00ff95, #003cff);
+        clip-path: circle(40% at 10% 60%);
+    }
+    #work-btn{
+        top: 9vw;
+        margin-left: 50vw;
+        width: 20vw;
+        cursor: pointer;
+        position: absolute;
+    }
+
 }
