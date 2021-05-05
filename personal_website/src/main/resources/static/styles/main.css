@@ -202,7 +202,7 @@ svg {
 
 #work-btn{
     margin-top: 3vh;
-    margin-left: 50vw;
+    margin-left: 43vw;
     width: 40vw;
     cursor: pointer;
 }
@@ -277,6 +277,9 @@ svg {
     text-decoration: none;
     -webkit-box-flex: 0;
     max-width: 40vh;
+    background-position: center;
+    background-repeat: no-repeat;
+
     margin: 0vh 1vh;
     position: relative;
     padding: 1.2em 0.8em;
@@ -321,24 +324,17 @@ svg {
 #work-soon{
     background-color: rgb(48, 48, 48);
 }
-#features-header{
-    color: white;
-    position: absolute;
-    top: 110vh;
-    font-size: 1.6em;
-    margin-left: 4vw;
-}
 .container{ 
     box-shadow: 20px 20px 50px rgba(0, 0, 0, .5);
     background: rgba(255, 255, 255, 0.1);
     overflow: hidden;
     margin-bottom: 5vh;
     margin: 5vw;
-    width: 38vw;
-    height: 18vh;
+    width: 35vw;
+    height: 23vh;
     text-align: center;
     padding: 2vw;
-    border-radius: 50%;
+    border-radius: 10px;
     border-top: 1px solid rgba(255, 255, 255, 0.5);
     border-left: 1px solid rgba(255, 255, 255, 0.5);
     -webkit-backdrop-filter: blur(7px);    
@@ -372,20 +368,15 @@ svg {
 }
 
 .skills{
-    overflow-x: scroll hidden;
-    overflow-y: hidden;
-    white-space: nowrap;
     background-color: transparent;
-    margin-top: 115vh;
+    margin-top: 85vh;
     display: grid;
-    grid-template-columns: 50vw 50vw 50vw 50vw;
-    grid-template-rows: 30vh;
+    grid-template-columns: 50vw 50vw;
+    grid-template-rows: 30vh 30vh;
     gap: 0px 0px;
     grid-template-areas:
-      "responsive mobile dynamic database";
-}
-.skills::-webkit-scrollbar {
-    display: none;
+      "responsive mobile"
+      "dynamic database";
 }
 #responsive { grid-area: responsive; }
 

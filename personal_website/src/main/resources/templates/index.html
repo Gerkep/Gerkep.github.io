@@ -1,9 +1,10 @@
 <!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <title>Piotr Gerke</title>
     <link rel="shortcut icon" href="#">
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="/styles/main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap" rel="stylesheet">
@@ -61,10 +62,9 @@
    <div class="third-circle">
    </div>
    </div>
-   <h2 id="features-header">My websites features: </h2>
+
       <div class="skills">
-  
-         <div class="container" id="database"><div class="content"><img class="container-icon" src="images/database.png"><h2>Database</h2><p>Provided database connection for my websites using Spring Boot Data technology.</p></div></div>
+         <div class="container" id="database"><div class="content"><img class="container-icon" src="images/database.png"><h2>Database</h2><p>I provide database connection for my websites using Spring Boot Data technology.</p></div></div>
          <div class="container" id="responsive"><div class="content"><img class="container-icon" id="responsive-img" src="images/responsive.png"><h2>Responsive</h2><p>My websites are responsive and full of innovative features thanks to CSS and JavaScript.</p></div></div>
          <div class="container" id="mobile"><div class="content"><img class="container-icon" src="images/diamond-gradient.png"><h2>Stylish</h2><p>The latest trends and funcionalities provided by usage of latest technologies.</p></div></div>
          <div class="container" id="dynamic"><div class="content"><img class="container-icon" src="images/dynamic.png"><h2>Dynamic</h2><p>Backend created in Java using Spring Boot. I can create websites with basic business logic.</p></div></div>
@@ -75,7 +75,7 @@
    <div class="third-section">
       <h1>Message me</h1>
       <form action="#" method="POST">
-         <input  type="email" th:field = "*{email}" placeholder="Email" id="input-email">
+         <input  type="email" placeholder="Email" id="input-email">
          <textarea id="message" rows="5" type="text" placeholder="Message"></textarea>
          <br>
          <button class="button" id="submit-btn" type="submit">Send</button>
@@ -86,3 +86,4 @@
    <script src="js/alert.js"></script>
    <script src="js/showWork.js"></script>
 </body>
+</html>
