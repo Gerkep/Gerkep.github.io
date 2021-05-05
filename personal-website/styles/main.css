@@ -189,6 +189,7 @@ svg {
     font-size: 2em;
     text-shadow: 0.1em 0.1em black;
     font-weight: bold;
+    line-height: 6.5vh;
 }
 .passion-txt span{
     opacity: 0;
@@ -201,7 +202,7 @@ svg {
 }
 
 #work-btn{
-    margin-top: 3vh;
+    margin-top: 0;
     margin-left: 50vw;
     width: 40vw;
     cursor: pointer;
@@ -319,9 +320,10 @@ svg {
 }
 #features-header{
     color: white;
+    text-shadow: 0.1em 0.1em black;
     position: absolute;
     top: 110vh;
-    font-size: 1.6em;
+    font-size: 1.4em;
     margin-left: 4vw;
 }
 .container{ 
@@ -331,7 +333,7 @@ svg {
     margin-bottom: 5vh;
     margin: 5vw;
     width: 38vw;
-    height: 18vh;
+    height: 24vh;
     text-align: center;
     padding: 2vw;
     border-radius: 10px;
@@ -349,15 +351,16 @@ svg {
    
 }
 .container h2{
-    font-size: 0.8em;
+    font-size: 1em;
+    text-shadow: 0.1em 0.1em black;
     text-align: left;
     font-weight: bold;
     text-align: center;
 }
 .container-icon{
     margin-top: 4vh;
-    height: 8vh;
-    width: 20vw;
+    height: 12vh;
+    width: 28vw;
 }
 .skills{
     overflow-x: scroll hidden;
