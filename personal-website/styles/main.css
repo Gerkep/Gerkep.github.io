@@ -458,28 +458,28 @@ textarea{
         border-radius: 12px;
     }
     #contact-img{
-        margin-top: 3vh;
+        margin-top: 4.3vh;
         width: 6vw;
         height: 10vh;
     }
     .dropdown-content{
         top: 0;
         left: 25vw;
-        width: 60vw;
+        width: 62vw;
     }
     .dropdown-content h2{
         font-size: 2em;
     }
 
     .dropdown-email{
-        transform: translateX(270%);
+        transform: translateX(70vw);
     }
     .dropdown-tel{
-      transform: translateX(-260%);
+      transform: translateX(-50vw);
       margin-top: 5vh;
     }
     .show {
-        transform: translateX(60%);
+        transform: translateX(10vw);
       
       }
       #logo p{
@@ -519,6 +519,12 @@ textarea{
         width: 20vw;
         cursor: pointer;
         position: absolute;
+        font-size: 1.5em;
+    }
+    #features-header{
+        font-size: 3em;
+        border-left: solid white 4px;
+        padding: 2vw;
     }
 
 }
