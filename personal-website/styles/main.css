@@ -6,6 +6,7 @@ html, body{
     background: #161623;
     position: relative;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 body::before{
     content: '';
@@ -283,7 +284,6 @@ svg {
 .attachment{
     text-decoration: none;
     -webkit-box-flex: 0;
-    max-width: 40vh;
     margin: 0vh 1vh;
     position: relative;
     padding: 1.2em 0.8em;
@@ -485,21 +485,20 @@ textarea{
       #logo p{
         font-size: 6em;
         margin: 0;
-        margin-left: 13vw;
-        margin-top: 28vh;
+        margin-left: 16vw;
+        margin-top: 26vh;
         position: absolute;
     }
     #logo h2{
-        font-size: 10em;
+        font-size: 14em;
         margin: 0;
         position: absolute;
-        margin-top: 36vh;
-        margin-left: 13vw;
+        margin-top: 30vh;
+        margin-left: 5vw;
     }
     .passion-txt{
         font-size: 3em;
         line-height: 8vh;
-
         padding: 2vw;
     }
     .third-circle{
@@ -523,8 +522,79 @@ textarea{
     }
     #features-header{
         font-size: 3em;
-        border-left: solid white 4px;
+        border-right: solid white 2px;
         padding: 2vw;
+        margin-left: 60vw;
+        margin-top: 10vh;
+    }
+    #websites-header{
+        font-size: 4em;
+        top: 8vh;
+        margin-top: 10vh;
+    }
+    .attachment{
+        width: 19vw;
+        height: 32vh;
+    }
+    .work-page{
+        display: flex;
+        justify-content: center;
+    }
+    .work-attachments{
+        max-width: 80vw;
+        top: 25vh;
+    }
+    .skills{
+        grid-template-columns: 40vw 40vw 40vw 40vw;
+        grid-template-rows: 60vh;
+    }
+    .container{
+        width: 22vw;
+        height: 35vh;
+        border-radius: 12px;
+        background-color: #131313;
+        font-size: 2em;
+    }
+    .container-icon{
+        width: 12vw;
+        height: 20vh;
+    }
+    .third-section{
+        clip-path: polygon(0 0, 100% 30%, 100% 100%, 0 100%);
+        padding-top: 10vh;
+        text-align: left;
+        justify-content: left;
+    }
+    .border{
+        height: 43vh;
+        clip-path: polygon(0 0, 100% 32.5%, 100% 100%, 0 100%);
+    }
+    .third-section h1{
+        position: absolute;
+        left: 3vw;
+        font-size: 3em;
+        border-left: solid white 2px;
+        padding-left: 2vw;
+    }
+    input{
+        position: absolute;
+        left: 16vw;
+        margin-top: 25vh;
+        width: 22vw;
+        margin-right: 30vw;
+    }
+    textarea{
+        position: absolute;
+        left: 16vw;
+        margin-top: 32vh;
+        height: 40vh;
+        width: 80vw;
+    }
+    #submit-btn{
+        position: absolute;
+        margin-top: 54vh;
+        left: 40vw;
+        width: 15vw;
     }
 
 }
