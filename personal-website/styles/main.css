@@ -191,7 +191,7 @@ svg {
 .passion-txt{
     color: white;
     margin-left: 3.5vw;
-    font-size: 2em;
+    font-size: 2.2em;
     text-shadow: 0.1em 0.1em black;
     font-weight: bold;
     line-height: 6.5vh;
@@ -329,8 +329,13 @@ svg {
     text-shadow: 0.1em 0.1em black;
     position: absolute;
     top: 110vh;
-    font-size: 1.4em;
-    margin-left: 4vw;
+    font-size: 2.5em;
+    right: 3vw;
+    left: 1vw;
+    border-right: solid 2px white;
+    padding-right: 2vw;
+
+
 }
 .container{ 
     box-shadow: 20px 20px 50px rgba(0, 0, 0, .5);
@@ -373,7 +378,7 @@ svg {
     overflow-y: hidden;
     white-space: nowrap;
     background-color: transparent;
-    margin-top: 115vh;
+    margin-top: 122vh;
     display: grid;
     grid-template-columns: 50vw 50vw 50vw 50vw;
     grid-template-rows: 30vh;
