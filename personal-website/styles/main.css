@@ -45,10 +45,6 @@ body::after{
     color: rgb(255, 255, 255);
     overflow: hidden;
 }
-.nav-button a{
-    width: 100%;
-    height: 100%;
-}
 #insta-button{
     top: 1vh;
     left: 4vw;
@@ -108,17 +104,6 @@ svg {
     overflow: hidden;
     margin-top: 2.5vh;
     margin-right: 3vw;
-  }
-  .dropdown .button {
-    color: white;
-    background-color: transparent;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-    outline: none;
-    margin-right: 6vw;
-    margin-top: 3vh;
   }
   .dropdown-content {
       margin-top: 4vh;
@@ -261,10 +246,6 @@ svg {
     margin-top: 15vh;
 }
 
-.img-btn{
-    width: 100%;
-    height: 100%;
-}
 .work-attachments{
     position: absolute;
     top: 40vh;
@@ -531,6 +512,7 @@ textarea{
         padding: 2vw;
         margin-left: 60vw;
         margin-top: 10vh;
+        text-align: right;
     }
     #websites-header{
         font-size: 4em;
