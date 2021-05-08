@@ -233,6 +233,10 @@ svg {
     box-shadow: 20px 20px 50px rgb(0, 0, 0);
  
 }
+.work-icon{
+    height: 5.4vh;
+    width: 10vw;
+}
 .slide-in{
     overflow: visible;
     -webkit-transform: translateX(0%);
@@ -365,7 +369,7 @@ svg {
     grid-template-rows: 30vh;
     gap: 0px 0px;
     grid-template-areas:
-      "responsive mobile dynamic database";
+      "dynamic mobile database responsive";
 }
 .skills::-webkit-scrollbar {
     display: none;
@@ -530,6 +534,14 @@ textarea{
     .work-attachments{
         max-width: 80vw;
         top: 25vh;
+    }
+    .attachment p{
+        font-size: 2em;
+    }
+    .work-icon{
+        height: 15vh;
+        width: 10vw;
+        margin-top: 6vh;
     }
     .skills{
         grid-template-columns: 40vw 40vw 40vw 40vw;
