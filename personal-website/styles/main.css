@@ -65,6 +65,7 @@ body::after{
     position: absolute;
     width: 14vw;
     height: 6vh;
+    cursor: pointer;
 }
 svg {
     left: 0;
@@ -90,6 +91,7 @@ svg {
     background-color: transparent;
     outline: none;
     border: none;
+    cursor: pointer;
 }
 
 #contact-img{
@@ -346,6 +348,9 @@ svg {
     text-align: center;
    
 }
+.container:hover{
+    transform: scale(1.1);
+}
 .container h2{
     font-size: 1em;
     text-shadow: 0.1em 0.1em black;
@@ -540,7 +545,7 @@ textarea{
     }
     .work-icon{
         height: 15vh;
-        width: 10vw;
+        width: 8.6vw;
         margin-top: 6vh;
     }
     .skills{
