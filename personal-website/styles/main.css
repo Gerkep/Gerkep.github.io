@@ -464,6 +464,7 @@ svg {
     white-space: nowrap;
     background-color: transparent;
     margin-top: 110vh;
+    width: 160vw;
     display: grid;
     grid-template-columns: 40vw 40vw 40vw 40vw;
     grid-template-rows: 30vh;
