@@ -465,9 +465,9 @@ svg {
     background-color: transparent;
     margin-top: 110vh;
     display: grid;
-    grid-template-columns: 45vw 45vw 45vw 45vw;
+    grid-template-columns: 40vw 40vw 40vw 40vw;
     grid-template-rows: 30vh;
-    gap: 0px 10px;
+    gap: 0px 25px;
     grid-template-areas:
       "dynamic mobile database responsive";
 }
