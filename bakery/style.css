@@ -6,6 +6,7 @@ body{
     background-size: cover;
     background-attachment: fixed;
     font-family: 'Noto Serif', serif;
+    height: 100vh;
 }
 li{
     display: inline-block;
@@ -14,11 +15,28 @@ li{
 }
 a{
     text-decoration: none;
-    color: white;
+    color: rgb(255, 255, 255);
+    font-size: 0.7em;
+    font-weight: 600;
+}
+h1{
+    font-size: 8em;
 }
 h2{
-    font-size: 6vh;
+    font-size: 5em;
+    text-align: left;
     text-shadow: 4px 4px rgba(0, 0, 0, 0.8);
+    margin-left: 2vw;
+    margin-top: 0;
+}
+h2::before{
+    background-image: url('/images/mark.png');
+    background-size: 10vw 5vh;
+    display: inline-block;
+    width: 10vw; 
+    height: 5vh;
+    content:"";
+    margin-right: 2vw;
 }
 p{
     text-shadow: 3px 2px rgba(0, 0, 0, 0.8);
@@ -42,7 +60,7 @@ position: fixed;
     font-size: 3vh;
 }
 .intro{
-    margin-top: 18vh;
+    margin-top: 12vh;
     margin-left: 5vh;
     color: white;
     width: 50vh;
@@ -56,13 +74,16 @@ position: fixed;
         flex-wrap: nowrap;
     overflow-x: auto;
     overflow-y: hidden;
+    right: 0;
+    width: 100%;
+
 }
 
 .container{
     -webkit-box-flex: 0;
         -ms-flex: 0 0 auto;
             flex: 0 0 auto;
-    height: 70vh;
+    height: 65vh;
     width: 40vh;
     margin: 0 auto;
     margin-top: 5vh;
@@ -70,9 +91,10 @@ position: fixed;
     color: white;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.808);
-    margin-right: 5vh;
+    margin-left: 8vh;
     border-radius: 30px;
-    margin-bottom: 5vh;
+    margin-bottom: 3vh;
+    border-radius: 15px;
 }
 #bread{
     height: 30vh;
@@ -80,9 +102,27 @@ position: fixed;
 }
 .order-button{
     width: 40%;
-    height: 3rem;
-    background-color: rgba(255, 187, 0, 0.8);
+    height: 4vh;
+    background-color: #cc9e07;
     border: none;
     border-radius: 50px;
     font-size: 3vh;
+    
+}
+.order-button a{
+    color: black;
+}
+
+@media(min-width:1200px){
+    h2{
+        font-size: 3em;
+        text-align: left;
+        text-shadow: 4px 4px rgba(0, 0, 0, 0.8);
+        margin-left: 2vw;
+        margin-top: 0;
+    }
+    h2::before{
+        background-size: 4vw 8vh;
+        margin-right: 0.6vw;
+    }
 }
