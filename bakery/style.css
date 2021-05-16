@@ -122,7 +122,10 @@ position: fixed;
         margin-top: 0;
     }
     h2::before{
+        background-image: url('/images/mark.png');
         background-size: 4vw 8vh;
+        width: 4vw; 
+        height: 8vh;
         margin-right: 0.6vw;
     }
 }
